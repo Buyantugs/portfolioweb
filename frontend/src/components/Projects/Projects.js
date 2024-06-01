@@ -20,7 +20,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://github.com/Buyantugs/cs489-project1/blob/main/Billing-Overview.PNG?raw=true"
+              imgPath="https://github.com/Buyantugs/cs489-project/blob/main/frontend/src/Assets/images/Stack/Billing-Overview.PNG?raw=true"
               isBlog={false}
               title="Billing System Modernization"
               description="Administered the modernization of complex Billing & Order Management systems using top-tier vendor solutions, ensuring enhanced core system reliability, and secured its lifetime of usage 5 more years."              

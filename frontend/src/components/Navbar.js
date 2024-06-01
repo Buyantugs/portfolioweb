@@ -93,6 +93,16 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
+                as={Link}
+                to="/contact"
+                onClick={() => updateExpanded(false)}
+              >
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Contact
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
                 href="https://medium.com/@togs224/can-we-debug-sql-query-f02a85c36467"
                 target="_blank"
                 rel="noreferrer"
